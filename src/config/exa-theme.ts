@@ -1,10 +1,12 @@
-import {StyleSheet} from 'react-native';
+import {Button, StyleSheet} from 'react-native';
 
 export const colors = {
   background: '#FFF7FC',
-  title: '#FF71CD',
+  title: '#FFD93D',
   primary: '#5755FE',
   secundary: '#8B93FF',
+  red: '#FF6B6B',
+  green: '#6BCB77',
 };
 
 export const styles = StyleSheet.create({
@@ -14,11 +16,52 @@ export const styles = StyleSheet.create({
   },
   title: {
     color: colors.title,
-    fontSize: 24,
+    fontSize: 45,
     textAlign: 'center',
-    marginTop: 25,
-    marginBottom: 25,
+    marginTop: 50,
+    marginBottom: 80,
     fontWeight: '900',
     fontStyle: 'italic',
+  },
+  text:{
+    color: colors.title,
+    fontSize: 60,
+    textAlign: 'center',
+    marginBottom: 90,
+  },
+  textA:{
+    color: colors.primary,
+    fontSize: 60,
+    textAlign: 'center',
+    marginBottom: 90,
+  },
+  textB:{
+    color: colors.green,
+    fontSize: 60,
+    textAlign: 'center',
+    marginBottom: 90,
+  },
+  textC:{
+    color: colors.red,
+    fontSize: 60,
+    textAlign: 'center',
+    marginBottom: 90,
+  },
+  button:{
+    backgroundColor: colors.secundary,
+    borderRadius: 10,
+    padding: 10,
+    width: 150,
+    marginLeft: 50,
+    marginRight: 50,
+  },
+  buttonTitle: {
+    color: colors.background,
+    fontSize: 40,
+    textAlign: 'center',
+  },
+  containerBotton: { 
+    flexDirection: 'row',
+    justifyContent: 'space-around',
   },
 });
