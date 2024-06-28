@@ -13,6 +13,8 @@ export const styles = StyleSheet.create({
   background: {
     flex: 1,
     backgroundColor: colors.background,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   title: {
     color: colors.title,
@@ -63,5 +65,12 @@ export const styles = StyleSheet.create({
   containerBotton: { 
     flexDirection: 'row',
     justifyContent: 'space-around',
+  },
+  botton2:{ 
+    borderColor: '#000000',
+    borderRadius: 5,
+    borderWidth: 1,
+    alignItems: 'center',
+    width: 300,
   },
 });
